@@ -1,0 +1,24 @@
+variable,type,missing_n,missing_pct,unique_n,mean,sd,min,q1,median,q3,max,top_level,top_n,top_pct
+Gender,categorical,0,0.0,2,,,,,,,,male,1403,58.17
+Age,numeric,0,0.0,61,48.702,16.417,20.0,35.0,49.0,61.0,80.0,,,
+Race1,categorical,0,0.0,5,,,,,,,,White,1846,76.53
+Education,categorical,0,0.0,5,,,,,,,,Some College,773,32.05
+MaritalStatus,categorical,0,0.0,6,,,,,,,,Married,1256,52.07
+HHIncome,categorical,0,0.0,12,,,,,,,,more 99999,506,20.98
+Poverty,numeric,0,0.0,349,2.872,1.637,0.0,1.31,2.75,4.76,5.0,,,
+HomeOwn,categorical,0,0.0,3,,,,,,,,Own,1583,65.63
+Weight,numeric,0,0.0,646,83.653,20.529,39.1,68.4,81.3,96.6,223.0,,,
+Height,numeric,0,0.0,400,170.898,9.385,141.2,164.3,171.1,177.4,200.4,,,
+BMI,numeric,0,0.0,863,28.562,6.345,15.02,24.0,27.54,32.0,67.83,,,
+Pulse,numeric,0,0.0,38,72.701,11.97,44.0,64.0,72.0,80.0,122.0,,,
+BPSysAve,numeric,0,0.0,102,122.133,17.412,78.0,111.0,120.0,131.0,217.0,,,
+BPDiaAve,numeric,0,0.0,81,70.571,12.607,0.0,64.0,71.0,78.0,116.0,,,
+DirectChol,numeric,0,0.0,91,1.354,0.431,0.39,1.052,1.29,1.6,3.83,,,
+TotChol,numeric,0,0.0,210,5.072,1.089,1.53,4.27,4.99,5.72,13.65,,,
+Diabetes,categorical,0,0.0,2,,,,,,,,No,2123,88.02
+HealthGen,categorical,0,0.0,5,,,,,,,,Good,1037,42.99
+PhysActive,categorical,0,0.0,2,,,,,,,,No,1219,50.54
+SmokeNow,categorical,0,0.0,2,,,,,,,,No,1331,55.18
+AlcoholYear,numeric,0,0.0,50,92.177,115.872,0.0,3.0,36.0,156.0,364.0,,,
+SleepHrsNight,numeric,0,0.0,11,6.759,1.41,2.0,6.0,7.0,8.0,12.0,,,
+HighBP,categorical,0,0.0,2,,,,,,,,Normal,1508,62.52

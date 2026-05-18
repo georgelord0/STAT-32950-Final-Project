@@ -1,0 +1,6 @@
+race,n,diabetes_yes_n,diabetes_yes_pct,highbp_high_n,highbp_high_pct,age_median,bmi_median,poverty_median
+White,1846,206,11.16,704,38.14,50.0,27.37,3.16
+Black,213,38,17.84,89,41.78,47.0,28.6,1.74
+Mexican,141,21,14.89,50,35.46,42.0,29.76,1.36
+Hispanic,91,8,8.79,34,37.36,38.0,27.66,1.7
+Other,121,16,13.22,27,22.31,43.0,25.53,2.05
