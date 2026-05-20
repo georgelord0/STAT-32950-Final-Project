@@ -1,0 +1,3 @@
+race,n,diabetes_yes_n,diabetes_yes_pct,roc_auc,accuracy_at_0_5,sensitivity_at_0_5,specificity_at_0_5,predicted_positive_pct_at_0_5
+White,1055,130,12.32,0.77,0.88,0.092,0.99,1.99
+Black,184,34,18.48,0.824,0.859,0.382,0.967,9.78
