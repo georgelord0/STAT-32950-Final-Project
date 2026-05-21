@@ -1,0 +1,47 @@
+variable,level,n,pct
+Gender,male,883,58.55
+Gender,female,625,41.45
+Race1,White,1055,69.96
+Race1,Black,184,12.2
+Race1,Mexican,115,7.63
+Race1,Hispanic,71,4.71
+Race1,Other,83,5.5
+Education,8th Grade,108,7.16
+Education,9 - 11th Grade,252,16.71
+Education,High School,378,25.07
+Education,Some College,470,31.17
+Education,College Grad,300,19.89
+MaritalStatus,Married,773,51.26
+MaritalStatus,LivePartner,180,11.94
+MaritalStatus,NeverMarried,246,16.31
+MaritalStatus,Divorced,173,11.47
+MaritalStatus,Separated,36,2.39
+MaritalStatus,Widowed,100,6.63
+HHIncome, 0-4999,32,2.12
+HHIncome, 5000-9999,50,3.32
+HHIncome,10000-14999,101,6.7
+HHIncome,15000-19999,103,6.83
+HHIncome,20000-24999,124,8.22
+HHIncome,25000-34999,193,12.8
+HHIncome,35000-44999,148,9.81
+HHIncome,45000-54999,136,9.02
+HHIncome,55000-64999,106,7.03
+HHIncome,65000-74999,80,5.31
+HHIncome,75000-99999,172,11.41
+HHIncome,more 99999,263,17.44
+HomeOwn,Own,964,63.93
+HomeOwn,Rent,510,33.82
+HomeOwn,Other,34,2.25
+Diabetes,No,1304,86.47
+Diabetes,Yes,204,13.53
+HealthGen,Poor,54,3.58
+HealthGen,Fair,263,17.44
+HealthGen,Good,653,43.3
+HealthGen,Vgood,427,28.32
+HealthGen,Excellent,111,7.36
+PhysActive,Yes,736,48.81
+PhysActive,No,772,51.19
+SmokeNow,Yes,702,46.55
+SmokeNow,No,806,53.45
+HighBP,Normal,930,61.67
+HighBP,High,578,38.33

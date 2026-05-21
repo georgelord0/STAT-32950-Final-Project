@@ -1,0 +1,21 @@
+Gender,Age,Race1,Education,MaritalStatus,HHIncome,Poverty,HomeOwn,Weight,Height,BMI,Pulse,BPSysAve,BPDiaAve,DirectChol,TotChol,Diabetes,HealthGen,PhysActive,SmokeNow,AlcoholYear,SleepHrsNight,HighBP,profile_count
+male,45,White,High School,Married,55000-64999,2.66,Own,78.1,167.3,27.9,64,116,41,1.06,6.23,No,Good,No,No,364,6,Normal,6
+male,58,White,Some College,Married,more 99999,5.0,Own,83.3,186.1,24.1,70,110,79,1.16,5.28,No,Fair,No,Yes,52,7,Normal,6
+male,57,White,Some College,LivePartner,75000-99999,3.25,Own,86.1,192.8,23.2,82,124,85,1.58,5.72,Yes,Vgood,No,Yes,156,6,High,6
+male,53,White,9 - 11th Grade,Married,65000-74999,4.76,Own,140.1,184.9,41.0,100,131,81,1.22,6.18,No,Good,No,No,52,6,High,6
+female,52,White,Some College,Married,75000-99999,3.51,Own,60.6,157.4,24.46,90,142,90,2.28,5.92,No,Poor,No,No,24,6,High,6
+male,54,White,College Grad,Married,more 99999,5.0,Own,117.3,171.9,39.7,58,118,77,0.72,3.15,No,Fair,No,No,104,8,Normal,5
+male,65,White,High School,NeverMarried,15000-19999,1.66,Own,80.6,174.6,26.44,60,102,53,1.03,4.94,Yes,Good,No,No,3,5,Normal,5
+male,47,White,College Grad,Married,more 99999,5.0,Own,117.3,181.5,35.61,96,178,97,1.24,5.53,No,Vgood,No,No,52,6,High,5
+male,49,White,High School,NeverMarried,more 99999,2.86,Rent,74.6,177.1,23.8,68,120,77,0.98,6.98,No,Good,No,Yes,6,4,Normal,5
+female,49,White,College Grad,Divorced,55000-64999,5.0,Own,61.1,164.5,22.6,74,116,77,2.28,5.35,No,Good,No,Yes,52,7,Normal,5
+male,59,White,High School,Divorced,more 99999,0.63,Rent,107.6,181.6,32.6,70,202,99,1.09,7.4,No,Fair,No,Yes,208,8,High,5
+male,21,White,Some College,NeverMarried,10000-14999,0.18,Rent,73.0,187.6,20.7,80,125,68,1.71,3.49,No,Good,Yes,Yes,52,6,Normal,5
+female,33,White,Some College,Divorced,25000-34999,1.34,Rent,81.5,161.8,31.1,76,113,61,1.19,4.37,No,Good,No,No,52,5,Normal,5
+male,50,White,High School,LivePartner,more 99999,5.0,Own,78.5,169.2,27.4,74,129,78,1.29,6.03,No,Vgood,Yes,Yes,260,6,Normal,5
+male,44,White,High School,NeverMarried,more 99999,5.0,Rent,112.8,174.6,37.0,66,129,82,1.03,6.13,Yes,Fair,No,No,52,6,High,5
+male,55,White,Some College,NeverMarried,more 99999,2.24,Rent,105.8,177.5,33.6,68,136,89,1.94,5.72,No,Good,No,Yes,260,6,High,5
+female,54,White,Some College,Married,more 99999,5.0,Own,64.8,160.9,25.0,64,122,69,1.68,6.47,No,Vgood,Yes,No,120,8,Normal,5
+female,69,White,Some College,Widowed,55000-64999,4.92,Own,62.8,163.4,23.5,82,141,81,1.71,4.84,No,Good,Yes,No,104,6,High,5
+female,39,White,9 - 11th Grade,Married,65000-74999,3.17,Own,68.9,168.0,24.41,66,116,73,1.4,4.65,No,Good,Yes,No,24,7,Normal,5
+female,57,White,Some College,Married,45000-54999,3.47,Own,58.7,159.7,23.0,64,142,69,1.71,5.66,No,Good,No,Yes,156,8,High,5
