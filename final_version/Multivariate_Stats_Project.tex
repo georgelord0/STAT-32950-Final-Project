@@ -279,6 +279,15 @@ In the black model, the largest positive coefficients are age ($1.390$), male ge
 \label{fig:clusterlogit}
 \end{figure}
 
+Figure~\ref{fig:logitprob} shows the out-of-fold predicted probability distributions separately for white and black respondents. For white respondents, diabetes negative cases concentrate near zero and diabetes positive cases spread broadly across the probability range, with most mass below $0.5$, which is consistent with the low sensitivity at the default threshold. The black respondent panel shows more separation between the two groups, but also a larger share of diabetes positive cases with moderate to high predicted probabilities, which reflects the higher AUC in the black model relative to the white model.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.90\textwidth]{logistic_regression/figures/fig_23_logit_predicted_probabilities_by_race.png}
+\caption{Out-of-fold predicted probability distributions by race and diabetes status. The dashed line marks the default $0.5$ classification threshold. Diabetes positive cases span a wider range of predicted probabilities than diabetes negative cases, but most mass remains below $0.5$, explaining the low sensitivity at the default threshold.}
+\label{fig:logitprob}
+\end{figure}
+
 \section{Comparison Across Methods}
 
 The methods answer different parts of the same question. PCA shows that body size and age/blood pressure are the main continuous axes,
