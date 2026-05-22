@@ -1,0 +1,37 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{amsmath}
+
+\title{NHANES Adult Health Data: Race-Specific Diabetes Risk Profiles}
+\author{Group Members: TODO}
+\date{STAT 24620 / FINM 34700 / STAT 32950 -- Spring 2026}
+
+\begin{document}
+\maketitle
+
+\section{Research Question}
+TODO: State the final research question. Current tracked analysis asks whether cardiometabolic and socioeconomic diabetes risk profiles differ across self-identified White and Black individuals in the NHANES adult health data.
+
+\section{Dataset and Preprocessing}
+TODO: Describe \texttt{data/nhanes\_health.csv}, complete-case sample, duplicate removal from 2,412 raw rows to 1,508 unique profiles, and the no-survey-weights limitation.
+
+\section{Descriptive Exploration}
+TODO: Summarize sample composition, diabetes/high-BP rates, socioeconomic differences, and correlation structure. Select 1--2 figures/tables.
+
+\section{Multivariate Structure}
+TODO: Compare PCA, factor analysis, and k-modes clustering. Explain what each method answers and what it reveals.
+
+\section{Supervised Comparison}
+TODO: Summarize race-specific logistic regression for \texttt{Diabetes = Yes}, including AUC, sensitivity/specificity, and coefficient patterns.
+
+\section{Method Comparison}
+TODO: Explicitly compare PCA/FA/clustering/logistic regression: structure vs. latent factors vs. categorical profiles vs. prediction.
+
+\section{Limitations}
+TODO: Discuss cross-sectional data, no survey weights, sample-size imbalance, duplicate handling, and association-not-causation.
+
+\end{document}

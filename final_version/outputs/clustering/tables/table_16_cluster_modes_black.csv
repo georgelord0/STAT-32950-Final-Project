@@ -1,0 +1,5 @@
+race,cluster,Gender,Race1,Education,MaritalStatus,HHIncome,HomeOwn,HealthGen,PhysActive,SmokeNow
+Black,C1,male,Black,Some College,Married,75000-99999,Own,Good,Yes,No
+Black,C2,male,Black,9 - 11th Grade,NeverMarried,25000-34999,Rent,Good,Yes,Yes
+Black,C3,female,Black,Some College,NeverMarried,10000-14999,Rent,Fair,No,Yes
+Black,C4,male,Black,9 - 11th Grade,Married,35000-44999,Own,Fair,No,No

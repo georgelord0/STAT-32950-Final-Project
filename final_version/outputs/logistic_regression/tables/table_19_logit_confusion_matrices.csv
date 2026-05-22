@@ -1,0 +1,9 @@
+race,true_class,predicted_class,n
+White,No,No,916
+White,No,Yes,9
+White,Yes,No,118
+White,Yes,Yes,12
+Black,No,No,145
+Black,No,Yes,5
+Black,Yes,No,21
+Black,Yes,Yes,13
