@@ -2,9 +2,10 @@
 """Centralized final analysis runner for the NHANES group project.
 
 This file centralizes the submission-facing notebook analysis without changing the
-statistical workflow. It reads data/nhanes_health.csv, removes exact duplicates,
-regenerates descriptive EDA, PCA, factor analysis, k-modes clustering, and
-race-specific logistic regression outputs, and writes them under final_version/outputs.
+statistical workflow. It reads data/nhanes_health.csv, removes exact duplicates
+and rows with BPDiaAve = 0, regenerates descriptive EDA, PCA, factor analysis,
+k-modes clustering, and race-specific logistic regression outputs, and writes
+them under final_version/outputs.
 """
 from __future__ import annotations
 
@@ -223,14 +224,19 @@ top_profiles
 
 
 # %% Notebook cell 6
-# Deduplication — remove exact duplicate rows once so all downstream cells
-# (tables, figures, PCA) run on the clean dataset without further changes.
-# NOTE: This permanently reassigns df; 2,412 → 1,508 unique profiles.
+# Deduplication and blood-pressure cleaning — remove exact duplicate rows, then
+# remove physiologically impossible BPDiaAve = 0 rows before all downstream
+# tables, figures, PCA, FA, clustering, and prediction models.
 n_before = len(df)
 df = df.drop_duplicates().reset_index(drop=True)
-n_after  = len(df)
+n_after_dedup = len(df)
+n_bpdiaave_zero = int(df['BPDiaAve'].eq(0).sum())
+df = df[~df['BPDiaAve'].eq(0)].reset_index(drop=True)
+n_after = len(df)
 print(f'Rows before deduplication : {n_before:,}')
-print(f'Rows after  deduplication : {n_after:,}  ({n_before - n_after:,} exact duplicates removed)')
+print(f'Rows after  deduplication : {n_after_dedup:,}  ({n_before - n_after_dedup:,} exact duplicates removed)')
+print(f'Rows with BPDiaAve = 0 removed: {n_bpdiaave_zero:,}')
+print(f'Rows in final analysis data: {n_after:,}')
 
 
 
@@ -576,11 +582,9 @@ subsets = {
 
 pca_results = {}
 
-# Legacy full-sample PCA tables are intentionally generated on the raw
-# pre-deduplication data because those tables already exist in root outputs/.
-# The race-stratified PCA below follows the notebook workflow and uses the
-# deduplicated analysis data.
-X_raw_pca = StandardScaler().fit_transform(raw_df[PCA_COLS])
+# Compatibility full-sample PCA tables use the final analysis data and match
+# table_09_pca_variance_all.csv / table_10_pca_loadings_all.csv.
+X_raw_pca = StandardScaler().fit_transform(df[PCA_COLS])
 raw_pca = PCA()
 raw_pca.fit(X_raw_pca)
 raw_expl = raw_pca.explained_variance_ratio_
@@ -1356,7 +1360,7 @@ White/Black profile:
 ## Handoff Notes
 
 - Later modeling should decide whether to retain exact duplicate rows.
-- The `BPDiaAve = 0` rows should be reviewed before blood-pressure modeling.
+- Rows with `BPDiaAve = 0` are removed before blood-pressure modeling.
 - Avoid language about national prevalence — survey weights are absent.
 - The White/Black sample-size imbalance should be acknowledged in race-specific analyses.
 '''

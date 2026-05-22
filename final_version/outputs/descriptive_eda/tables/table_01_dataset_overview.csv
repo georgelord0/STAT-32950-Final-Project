@@ -1,10 +1,10 @@
 metric,value
-rows,1508
+rows,1504
 columns,23
 missing_cells,0
 exact_duplicate_rows,0
-unique_full_profiles,1508
-bpdiaave_zero_values,4
+unique_full_profiles,1504
+bpdiaave_zero_values,0
 highbp_derivation_mismatches,0
-white_rows,1055
-black_rows,184
+white_rows,1052
+black_rows,183

@@ -1,5 +1,5 @@
 race,cluster,Gender,Race1,Education,MaritalStatus,HHIncome,HomeOwn,HealthGen,PhysActive,SmokeNow
 White,C1,male,White,Some College,Married,25000-34999,Own,Good,No,No
-White,C2,male,White,High School,Married,75000-99999,Own,Good,Yes,Yes
+White,C2,male,White,Some College,Married,more 99999,Own,Good,Yes,Yes
 White,C3,female,White,College Grad,Married,more 99999,Own,Vgood,Yes,No
-White,C4,female,White,High School,Married,more 99999,Own,Good,No,Yes
+White,C4,female,White,High School,Married,20000-24999,Own,Fair,No,Yes

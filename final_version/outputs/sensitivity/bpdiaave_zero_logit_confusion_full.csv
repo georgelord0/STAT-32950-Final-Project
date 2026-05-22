@@ -1,0 +1,17 @@
+analysis,race,true_class,predicted_class,n
+baseline,White,No,No,916
+baseline,White,No,Yes,9
+baseline,White,Yes,No,118
+baseline,White,Yes,Yes,12
+baseline,Black,No,No,145
+baseline,Black,No,Yes,5
+baseline,Black,Yes,No,21
+baseline,Black,Yes,Yes,13
+drop_bpdiaave_zero,White,No,No,914
+drop_bpdiaave_zero,White,No,Yes,9
+drop_bpdiaave_zero,White,Yes,No,116
+drop_bpdiaave_zero,White,Yes,Yes,13
+drop_bpdiaave_zero,Black,No,No,143
+drop_bpdiaave_zero,Black,No,Yes,6
+drop_bpdiaave_zero,Black,Yes,No,23
+drop_bpdiaave_zero,Black,Yes,Yes,11

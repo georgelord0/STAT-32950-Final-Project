@@ -1,0 +1,5 @@
+metric,value
+baseline_deduplicated_rows,1508.0
+bpdiaave_zero_rows_removed,4.0
+sensitivity_rows,1504.0
+removed_rows_share_pct,0.2652519893899204

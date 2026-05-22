@@ -1,0 +1,5 @@
+Race1,Gender,Age,BMI,BPSysAve,BPDiaAve,HighBP,Diabetes,Poverty
+Black,female,57,23.81,97,0,Normal,No,2.49
+White,male,60,35.8,127,0,Normal,No,1.27
+White,female,80,19.81,134,0,High,No,4.12
+White,female,70,33.1,152,0,High,Yes,1.16

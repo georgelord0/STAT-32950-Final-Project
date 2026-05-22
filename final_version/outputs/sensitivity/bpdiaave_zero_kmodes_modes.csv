@@ -1,0 +1,17 @@
+analysis,race,cluster,Gender,Race1,Education,MaritalStatus,HHIncome,HomeOwn,HealthGen,PhysActive,SmokeNow
+baseline,White,C1,male,White,Some College,Married,25000-34999,Own,Good,No,No
+baseline,White,C2,male,White,High School,Married,75000-99999,Own,Good,Yes,Yes
+baseline,White,C3,female,White,College Grad,Married,more 99999,Own,Vgood,Yes,No
+baseline,White,C4,female,White,High School,Married,more 99999,Own,Good,No,Yes
+baseline,Black,C1,male,Black,Some College,Married,75000-99999,Own,Good,Yes,No
+baseline,Black,C2,male,Black,9 - 11th Grade,NeverMarried,25000-34999,Rent,Good,Yes,Yes
+baseline,Black,C3,female,Black,Some College,NeverMarried,10000-14999,Rent,Fair,No,Yes
+baseline,Black,C4,male,Black,9 - 11th Grade,Married,35000-44999,Own,Fair,No,No
+drop_bpdiaave_zero,White,C1,male,White,Some College,Married,25000-34999,Own,Good,No,No
+drop_bpdiaave_zero,White,C2,male,White,Some College,Married,more 99999,Own,Good,Yes,Yes
+drop_bpdiaave_zero,White,C3,female,White,College Grad,Married,more 99999,Own,Vgood,Yes,No
+drop_bpdiaave_zero,White,C4,female,White,High School,Married,20000-24999,Own,Fair,No,Yes
+drop_bpdiaave_zero,Black,C1,male,Black,Some College,Married,25000-34999,Own,Fair,No,Yes
+drop_bpdiaave_zero,Black,C2,male,Black,9 - 11th Grade,LivePartner,45000-54999,Rent,Fair,No,Yes
+drop_bpdiaave_zero,Black,C3,female,Black,High School,NeverMarried,10000-14999,Rent,Good,No,Yes
+drop_bpdiaave_zero,Black,C4,male,Black,High School,NeverMarried,more 99999,Own,Good,Yes,No
